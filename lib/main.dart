@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/screens/Home.dart';
 
 void main() {
-  runApp(MaterialApp(
-      home: Scaffold(
-    appBar: AppBar(
-      title: Text("My futter app"),
-    ),
-  )));
+  runApp(const MaterialApp(home: Home()));
 }
